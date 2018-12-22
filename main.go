@@ -13,7 +13,7 @@ func main() {
 		t := s.Text()
 		nt := strings.Replace(t, "_", " ", -1)
 		nt = strings.Title(nt)
-		nt = strings.Replace(nt, " ", "", -1)
+		nt = strings.Replace(nt, " ", "_", -1)
 		fmt.Println(nt)
 	}
 }
